@@ -1383,6 +1383,13 @@ body {
     margin: 0;
 }
 
+.bonus-time {
+    font-size: 1rem;
+    color: var(--cor-primaria);
+    font-weight: 600;
+    margin: 0;
+}
+
 .total-value {
     background: rgba(255, 255, 255, 0.95);
     border: 2px solid var(--cor-secundaria);

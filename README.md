@@ -4,7 +4,7 @@
 
 ![Landing Page Preview](Assets/Planilha%20financeira.jpeg)
 
-**Uma landing page moderna e responsiva para promover seu kit de organização financeira**
+**Uma landing page moderna e responsiva para promover o kit de organização financeira da Jaqueline Moraes**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -34,24 +34,24 @@
 ## ✨ Características
 
 ### 🎨 Design Moderno
-- **Tema Escuro**: Layout elegante com gradientes verdes
+- **Paleta de Cores Quente**: Tons de marrom e bege para criar confiança
 - **Tipografia Inter**: Fonte moderna e legível
 - **Animações Suaves**: Efeitos de hover e transições fluidas
-- **Visual Impactante**: Interface simulada do Notion
+- **Layout Centralizado**: Conteúdo bem organizado e focado
 
 ### 📱 Responsividade Total
-- **Desktop**: Layout em duas colunas
-- **Tablet**: Layout otimizado
-- **Mobile**: Layout em coluna única
+- **Desktop**: Layout otimizado para telas grandes
+- **Tablet**: Layout adaptado para dispositivos médios
+- **Mobile**: Layout em coluna única com navegação simplificada
 
 ### ⚡ Performance
-- **CSS Otimizado**: Estilos eficientes
+- **CSS Otimizado**: Estilos eficientes com variáveis CSS
 - **JavaScript Leve**: Interatividade sem peso
 - **Carregamento Rápido**: Assets otimizados
 
 ### ♿ Acessibilidade
 - **Navegação por Teclado**: Suporte completo
-- **Contraste Adequado**: Cores acessíveis
+- **Contraste Adequado**: Cores acessíveis e legíveis
 - **Semântica HTML**: Estrutura bem definida
 
 ---
@@ -63,11 +63,20 @@ Para visualizar a landing page:
 1. Abra o arquivo `index.html` em seu navegador
 2. Ou acesse a versão online (se disponível)
 
-**Preview da seção principal:**
-- Título impactante focado em transformação financeira
-- Lista de problemas identificáveis
-- Call-to-action prominente
-- Visual do produto (interface Notion)
+**Estrutura da página:**
+- **Seção Hero**: Título impactante e problemas identificáveis
+- **Seção Solução**: Benefícios e transformação
+- **Seção Kit**: Apresentação das ferramentas
+- **Seção Ferramentas**: Detalhamento dos produtos
+- **Seção Único**: Diferenciais do kit
+- **Seção Público-alvo**: Para quem é o produto
+- **Seção Transformação**: Timeline de resultados
+- **Seção Oferta**: Preços e bônus
+- **Seção Garantia**: Segurança na compra
+- **Seção Depoimentos**: Social proof
+- **Seção FAQ**: Perguntas frequentes
+- **Seção Urgência**: CTA final
+- **Seção Sobre**: Apresentação da Jaqueline Moraes
 
 ---
 
@@ -80,6 +89,7 @@ LandingPageKit/
 ├── ⚡ script.js               # JavaScript para interatividade
 ├── 📁 Assets/                 # Imagens e recursos
 │   ├── 📊 Planilha financeira.jpeg
+│   ├── 👤 Jaqueline Moraes (378).jpg
 │   └── 👤 Jaqueline Moraes (544).jpg
 └── 📖 README.md              # Esta documentação
 ```
@@ -117,11 +127,11 @@ python -m http.server 8000
 ### 🎯 Paleta de Cores
 ```css
 /* Cores principais */
---bg-primary: #0a0a0a → #1a1a1a    /* Gradiente escuro */
---text-primary: #ffffff              /* Texto branco */
---accent-green: #00ff88             /* Verde de destaque */
---problem-red: #ff6b6b              /* Vermelho para problemas */
---cta-gradient: #00cc6a → #00ff88   /* Gradiente do botão */
+--cor-primaria: #191919        /* Preto escuro */
+--cor-secundaria: #4F3529      /* Marrom escuro */
+--cor-terciaria: #E8C39E       /* Bege quente */
+--cor-quaternaria: #E3D1BE     /* Bege claro */
+--cor-branca: #ffffff          /* Branco */
 ```
 
 ### 📝 Tipografia
@@ -132,8 +142,8 @@ python -m http.server 8000
 ### 🎭 Animações
 - **Fade-in**: Elementos aparecem suavemente
 - **Hover Effects**: Interações responsivas
-- **Parallax Sutil**: Efeito de profundidade
 - **Transições**: 0.3s ease-in-out
+- **Transformações**: Efeitos de elevação
 
 ---
 
@@ -142,15 +152,16 @@ python -m http.server 8000
 ### 📊 Breakpoints
 ```css
 /* Mobile First */
-@media (min-width: 768px)  /* Tablet */
-@media (min-width: 1024px) /* Desktop */
-@media (min-width: 1440px) /* Large Desktop */
+@media (max-width: 480px)   /* Mobile pequeno */
+@media (max-width: 768px)   /* Mobile */
+@media (max-width: 1024px)  /* Tablet */
+@media (min-width: 1025px)  /* Desktop */
 ```
 
 ### 📐 Layouts
 - **Mobile (< 768px)**: Coluna única, visual simplificado
 - **Tablet (768px - 1024px)**: Layout otimizado
-- **Desktop (> 1024px)**: Layout completo em duas colunas
+- **Desktop (> 1024px)**: Layout completo centralizado
 
 ---
 
@@ -158,12 +169,12 @@ python -m http.server 8000
 
 ### 🏗️ Frontend
 - **HTML5**: Estrutura semântica
-- **CSS3**: Flexbox, Grid, Gradientes
+- **CSS3**: Flexbox, Grid, Variáveis CSS
 - **JavaScript**: ES6+, DOM Manipulation
 
 ### 🎨 Recursos Externos
 - **Google Fonts**: Tipografia Inter
-- **CSS Variables**: Sistema de cores
+- **CSS Variables**: Sistema de cores centralizado
 - **Modern CSS**: Flexbox, Grid, Animations
 
 ### 📦 Dependências
@@ -177,20 +188,22 @@ python -m http.server 8000
 
 ### 📈 Elementos de Conversão
 1. **Título Impactante**: "TRANSFORME SUA VIDA FINANCEIRA"
-2. **Problemas Identificáveis**: Lista clara dos desafios
-3. **CTA Prominente**: Botão verde chamativo
-4. **Social Proof**: Visual do produto
+2. **Problemas Identificáveis**: Lista clara dos desafios financeiros
+3. **CTA Prominente**: Botões com gradiente bege
+4. **Social Proof**: Depoimentos reais
 5. **Urgência**: Call-to-action direto
+6. **Garantia**: 7 dias de garantia incondicional
 
 ### 🎨 Psicologia das Cores
-- **Verde**: Confiança, crescimento, dinheiro
-- **Vermelho**: Problemas, urgência
-- **Escuro**: Profissionalismo, elegância
+- **Marrom/Bege**: Confiança, estabilidade, profissionalismo
+- **Preto**: Elegância, seriedade
+- **Branco**: Limpeza, transparência
 
 ### 📱 UX Otimizada
-- **Foco no CTA**: Botão sempre visível
+- **Foco no CTA**: Botões sempre visíveis
 - **Leitura Fácil**: Hierarquia clara
 - **Mobile First**: Maioria dos acessos
+- **Seções Alternadas**: Fundos que se alternam para criar ritmo
 
 ---
 
@@ -207,8 +220,11 @@ python -m http.server 8000
 ```css
 /* Modifique as variáveis CSS no styles.css */
 :root {
-  --accent-green: #sua-cor-aqui;
-  --bg-primary: #sua-cor-aqui;
+  --cor-primaria: #sua-cor-aqui;
+  --cor-secundaria: #sua-cor-aqui;
+  --cor-terciaria: #sua-cor-aqui;
+  --cor-quaternaria: #sua-cor-aqui;
+  --cor-branca: #sua-cor-aqui;
 }
 ```
 
@@ -218,15 +234,6 @@ python -m http.server 8000
 function novaFuncao() {
   // Sua lógica aqui
 }
-```
-
-### 📄 Novas Seções
-```javascript
-// Use a função addSection() para novas seções
-addSection('nova-secao', {
-  title: 'Título da Seção',
-  content: 'Conteúdo...'
-});
 ```
 
 ---
@@ -288,6 +295,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 ## 🙏 Agradecimentos
 
+- **Jaqueline Moraes**: Especialista em organização financeira
 - **Design Inspiration**: Baseado em layouts modernos
 - **Google Fonts**: Tipografia Inter
 - **Comunidade**: Feedback e sugestões
