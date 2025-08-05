@@ -13,12 +13,17 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: var(--cor-quaternaria);
+}
+
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--cor-primaria);
     background: var(--cor-terciaria);
     min-height: 100vh;
+    background-color: var(--cor-quaternaria);
 }
 
 /* Hero Section */
