@@ -235,6 +235,13 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Botão CTA na seção solução */
+.solution-section .hero-cta {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
 /* Responsividade */
 @media (max-width: 1024px) {
     .hero-container {
@@ -281,6 +288,30 @@ body {
     
     .solution-benefits li {
         font-size: 1.1rem;
+    }
+    
+    .solution-section .hero-cta {
+        max-width: 450px;
+        font-size: 1.1rem;
+        padding: 18px 35px;
+    }
+    
+    .tools-section .hero-cta {
+        max-width: 450px;
+        font-size: 1.1rem;
+        padding: 18px 35px;
+    }
+    
+    .target-section .hero-cta {
+        max-width: 450px;
+        font-size: 1.1rem;
+        padding: 18px 35px;
+    }
+    
+    .offer-section .hero-cta {
+        max-width: 450px;
+        font-size: 1.1rem;
+        padding: 18px 35px;
     }
 }
 
@@ -335,6 +366,30 @@ body {
         font-size: 1rem;
         padding: 12px 16px;
     }
+    
+    .solution-section .hero-cta {
+        max-width: 400px;
+        font-size: 1rem;
+        padding: 16px 30px;
+    }
+    
+    .tools-section .hero-cta {
+        max-width: 400px;
+        font-size: 1rem;
+        padding: 16px 30px;
+    }
+    
+    .target-section .hero-cta {
+        max-width: 400px;
+        font-size: 1rem;
+        padding: 16px 30px;
+    }
+    
+    .offer-section .hero-cta {
+        max-width: 400px;
+        font-size: 1rem;
+        padding: 16px 30px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -383,6 +438,30 @@ body {
     .solution-benefits li {
         font-size: 0.9rem;
         padding: 10px 14px;
+    }
+    
+    .solution-section .hero-cta {
+        max-width: 350px;
+        font-size: 0.9rem;
+        padding: 14px 25px;
+    }
+    
+    .tools-section .hero-cta {
+        max-width: 350px;
+        font-size: 0.9rem;
+        padding: 14px 25px;
+    }
+    
+    .target-section .hero-cta {
+        max-width: 350px;
+        font-size: 0.9rem;
+        padding: 14px 25px;
+    }
+    
+    .offer-section .hero-cta {
+        max-width: 350px;
+        font-size: 0.9rem;
+        padding: 14px 25px;
     }
 }
 
@@ -654,6 +733,21 @@ body {
 .ebook-topics li:hover {
     border-left-color: var(--cor-secundaria);
     color: var(--cor-secundaria);
+}
+
+/* Botão CTA na seção ferramentas */
+.tools-section .hero-cta {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 500px;
+    background: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    box-shadow: 0 10px 30px rgba(232, 195, 158, 0.4);
+}
+
+.tools-section .hero-cta:hover {
+    background: #D4B08A;
+    box-shadow: 0 15px 40px rgba(232, 195, 158, 0.6);
 }
 
 /* Responsividade para a quarta seção */
@@ -1014,6 +1108,13 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Botão CTA na seção público-alvo */
+.target-section .hero-cta {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
 /* Seção 7: Transformação */
 .transformation-section {
     background: var(--cor-quaternaria);
@@ -1300,6 +1401,21 @@ body {
 .payment-installments {
     font-size: 1rem;
     color: var(--cor-secundaria);
+}
+
+/* Botão CTA na seção oferta */
+.offer-section .hero-cta {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+    background: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    box-shadow: 0 10px 30px rgba(232, 195, 158, 0.4);
+}
+
+.offer-section .hero-cta:hover {
+    background: #D4B08A;
+    box-shadow: 0 15px 40px rgba(232, 195, 158, 0.6);
 }
 
 .bonus-section {
